@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px){
+    #hero{
+        height: 60vh;
+    }
+    .marketing-black, .marketing-white{
+        height: 100vh;
+    }
+    #hero-text h1{
+        font-size: 48px;
+    }
+    #hero-text p {
+        font-size: 24px;
+    }
+    .marketin-black:hover ,
+    .marketin-white:hover,
+    #hero-text h1{
+        animation: none;
+    }
+    .product{
+        width: 70%;
+    }
+    
+}
