@@ -1,23 +1,55 @@
-@media screen and (max-width: 600px){
-    #hero{
-        height: 60vh;
-    }
-    .marketing-black, .marketing-white{
-        height: 100vh;
-    }
-    #hero-text h1{
-        font-size: 48px;
-    }
-    #hero-text p {
-        font-size: 24px;
-    }
-    .marketin-black:hover ,
-    .marketin-white:hover,
-    #hero-text h1{
-        animation: none;
-    }
-    .product{
-        width: 70%;
-    }
-    
+@media screen and (max-width: 600px) {
+  #hero {
+    height: 60vh;
+  }
+  .marketing-black,
+  .marketing-white {
+    min-height: 60vh;
+  }
+  #hero-text h1 {
+    font-size: 48px;
+  }
+  #hero-text p {
+    font-size: 24px;
+  }
+  .marketin-black:hover,
+  .marketin-white:hover,
+  #hero-text h1 {
+    animation: none;
+  }
+  .product {
+    width: 70%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  #image-fone-black {
+    margin: 0px;
+  }
+  .white-title,
+  .black-title {
+    font-size: 40px;
+    margin: 0px;
+  }
+  .white-text,
+  .black-text {
+    margin: 20px 10px 30px 10px;
+  }
+  .sobre-white {
+    padding: 20px;
+    padding-bottom: 10vh;
+    background-position: right;
+  }
+  main{
+    flex-direction: column-reverse;
+  }
+  aside{
+    width: 100%;
+  }
+  .description-product {
+    max-width: 100%;
+  }
+  .lateral-preco {
+    width: 100%;
+  }
 }
